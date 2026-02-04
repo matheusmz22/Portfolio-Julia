@@ -2,23 +2,35 @@
 
 @theme {
   --color-brown: #724e3c;
+  --color-brown-hover: #563b2e;
   --color-body: #f1eae7;
 
-  --color-brownText: #724e3c;
+  --color-brownText: #6b4b3b;
   --color-whiteText: #eae5e2;
+  --color-whiteText-hover: #dbd5d3;
+}
+
+* {
+  font-family: "Playfair Display", serif;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Playfair Display", serif;
+body {
+  background-color: #f1eae7;
 }
 
+.image-filter {
+  filter: sepia(40%) saturate(85%) brightness(88%) contrast(95%);
+  mix-blend-mode: multiply;
+  background-color: #7a4a32;
+}
+
+.font-name {
+  font-family: "Cinzel";
+}
 /* .font-signature {
   font-family: "Signature";
 }

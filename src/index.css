@@ -20,6 +20,7 @@ html {
 
 body {
   background-color: #f1eae7;
+  overflow-x: hidden;
 }
 
 .image-filter {
@@ -31,9 +32,54 @@ body {
 .font-name {
   font-family: "Cinzel";
 }
-/* .font-signature {
-  font-family: "Signature";
+
+.editorial-link {
+  position: relative;
+  cursor: pointer;
 }
+
+.editorial-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 1px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+.editorial-link:hover::after {
+  width: 100%;
+}
+
+.hero-link {
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.hero-link:hover {
+  opacity: 0.7;
+  transform: translateY(-1px);
+}
+
+/*-----------------------  
+--OTHER HOVER EFFECT-----
+------------------------- 
+.soft-hover {
+  cursor: pointer;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.soft-hover:hover {
+  opacity: 0.7;
+  transform: translateY(1px);
+} */
+
+/* 
 
 .card-nav-container {
   position: absolute;

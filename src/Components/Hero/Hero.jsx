@@ -1,6 +1,6 @@
 function Hero({isMobile, isMediumMobile}) {
   return (
-    <section id="home">
+    <section>
       {isMobile ? (
         //////////////////////////
         //// MOBILE VERSION //////
@@ -9,7 +9,7 @@ function Hero({isMobile, isMediumMobile}) {
         <div className="relative h-screen w-screen overflow-hidden">
           {/* Image */}
           <img
-            src="public\Images\HeroImage.jpg"
+            src="/Images/HeroImage.jpg2"
             alt="Julia Machado's Picture"
             className="absolute inset-0 h-full w-full object-cover image-filter"
             style={{objectPosition: "65%"}}
@@ -18,7 +18,7 @@ function Hero({isMobile, isMediumMobile}) {
           {/* Name and Button */}
           <div className="relative z-10 flex flex-col justify-between h-full py-8">
             <div
-              className={`text-brownText w-fit text-3xl font-name mt-10 ml-1 text-center ${isMediumMobile && "ml-15 text-4xl mt-15"}`}
+              className={`text-brownText w-fit text-3xl font-name mt-10 ml-1 text-center ${isMediumMobile && "ml-15 text-4xl mt-15"} `}
             >
               <h1>Julia</h1>
               <h1>Machado</h1>
@@ -62,23 +62,26 @@ function Hero({isMobile, isMediumMobile}) {
 
             {/* HERO FOOTER CLASS  */}
             <div className="absolute bottom-0 left-0 w-full bg-brown xl:py-9 md:py-6 z-10 flex flex-col">
-              <nav className="flex justify-center items-center lg:gap-16 xl:gap-20 md:gap-6 md:text-[16px] text-whiteText text-xl  font-semibold xl:text-[21px]">
-                <a className="cursor-pointer hover:opacity-70 transition-opacity">
+              <nav className="flex justify-center items-center lg:gap-16 xl:gap-20 md:gap-6 md:text-[20px] text-whiteText text-xl  font-semibold xl:text-[22px]">
+                <a
+                  href="/#Costume"
+                  className="cursor-pointer editorial-link hero-link "
+                >
                   Costume / Wardrobe
                 </a>
                 <span className="text-whiteText/40">|</span>
 
-                <a className="cursor-pointer hover:opacity-70 transition-opacity">
+                <a href="#Character" className="editorial-link hero-link">
                   Character & Styling
                 </a>
                 <span className="text-whiteText/40">|</span>
 
-                <a className="cursor-pointer hover:opacity-70 transition-opacity">
+                <a href="#Performance" className="editorial-link hero-link">
                   Performance
                 </a>
                 <span className="text-whiteText/40">|</span>
 
-                <a className="cursor-pointer hover:opacity-70 transition-opacity">
+                <a href="#Work" className="editorial-link hero-link">
                   Let's work
                 </a>
               </nav>

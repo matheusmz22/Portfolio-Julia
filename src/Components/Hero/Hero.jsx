@@ -25,9 +25,9 @@ function Hero({isMobile, isMediumMobile}) {
             </div>
 
             <div className="flex justify-center mb-20">
-              <button className="bg-brown text-whiteText w-55 h-12 rounded-3xl text-[1.65rem] drop-shadow-black drop-shadow-lg">
+              <a className="text-center bg-brown text-whiteText w-55 h-12 rounded-3xl text-[1.65rem] drop-shadow-black drop-shadow-lg">
                 View Resume
-              </button>
+              </a>
             </div>
           </div>
         </div>

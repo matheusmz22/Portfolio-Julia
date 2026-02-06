@@ -20,7 +20,7 @@ function Character({isMobile}) {
   return (
     <>
       <section id="Character">
-        <h1 className="text-brownText mt-20 mb-10 w-fit mx-auto text-2xl sm:text-4xl lg:text-[2.3rem]">
+        <h1 className="text-brownText mt-30 mb-10 w-fit mx-auto text-2xl sm:text-4xl lg:text-[2.3rem]">
           Character & Styling{" "}
         </h1>
       </section>

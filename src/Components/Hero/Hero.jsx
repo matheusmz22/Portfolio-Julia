@@ -77,7 +77,7 @@ function Hero({isMobile, isMediumMobile}) {
                 <span className="text-whiteText/40">|</span>
 
                 <a href="#Performance" className="editorial-link hero-link">
-                  Performance
+                  Performances
                 </a>
                 <span className="text-whiteText/40">|</span>
 

@@ -11,9 +11,6 @@ import CostumeGallery from "../../Components/Costume Wardrobe/CostumeGallery";
 
 const imgs = [img1, img2, img3, img4, img5, img6, img7, img8];
 
-// The Servant of Two Masters
-//Dresser
-//Directed by Geno Car
 function Servant() {
   return (
     <section id="servant">

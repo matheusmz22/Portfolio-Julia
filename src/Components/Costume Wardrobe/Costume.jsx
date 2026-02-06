@@ -4,7 +4,7 @@ function Costume() {
   return (
     <>
       <section id="Costume">
-        <h1 className="text-brownText mt-12 w-fit mx-auto text-2xl sm:text-4xl lg:text-[2.3rem]">
+        <h1 className="text-brownText mt-16 w-fit mx-auto text-2xl sm:text-4xl lg:text-[2.3rem]">
           Costume / Wardrobe{" "}
         </h1>
       </section>

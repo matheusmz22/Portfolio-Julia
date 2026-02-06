@@ -17,10 +17,10 @@ function CostumeGallery({title, role, directed, heroImage, images}) {
       </button>
       <div className="text-brownText  my-4">
         <h1 className="w-fit mx-auto font-semibold text-xl md:text-2xl lg:text-3xl">
-          {title}
+          {title && title}
         </h1>
         <h2 className="w-fit mx-auto text-center text-md md:text-lg lg:text-xl px-2 my-2 leading-tight">
-          {role}
+          {role && role}
         </h2>
         <h3 className="w-fit mx-auto text-center text-sm opacity-90 ">
           {directed && directed}

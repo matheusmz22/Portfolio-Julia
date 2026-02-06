@@ -76,6 +76,11 @@ body {
   scroll-snap-align: center;
 }
 
+.character-item {
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+}
+
 .back-arrow {
   text-decoration: none;
   transition:

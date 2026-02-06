@@ -4,6 +4,7 @@ import Hero from "./Components/Hero/Hero";
 import Costume from "./Components/Costume Wardrobe/Costume";
 import Character from "./Components/Character Styling/Character";
 import Performances from "./Components/Performances/Performances";
+import LetsWork from "./Components/LetsWork/LetsWork";
 
 function Layout() {
   const isMobile = useMediaQuery({maxWidth: 780});
@@ -15,7 +16,7 @@ function Layout() {
       <Costume />
       <Character isMobile={isMobile} />
       <Performances />
-      {/* LetsWork */}
+      <LetsWork />
     </>
   );
 }

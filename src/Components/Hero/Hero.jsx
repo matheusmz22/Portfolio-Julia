@@ -9,7 +9,7 @@ function Hero({isMobile, isMediumMobile}) {
         <div className="relative h-screen w-screen overflow-hidden">
           {/* Image */}
           <img
-            src="/Images/HeroImage.jpg2"
+            src="/Images/HeroImage.jpg"
             alt="Julia Machado's Picture"
             className="absolute inset-0 h-full w-full object-cover image-filter"
             style={{objectPosition: "65%"}}
@@ -38,7 +38,7 @@ function Hero({isMobile, isMediumMobile}) {
         <>
           <div className="relative h-screen w-screen overflow-hidden flex flex-col">
             <img
-              src="public\Images\HeroImage.jpg"
+              src="/Images/HeroImage.jpg"
               alt="Julia Machado's Picture"
               className="absolute inset-0 h-screen w-screen image-filter object-cover"
               style={{objectPosition: "center top"}}

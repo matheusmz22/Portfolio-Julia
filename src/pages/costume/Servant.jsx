@@ -1,3 +1,5 @@
+import CostumeGallery from "../../Components/Costume Wardrobe/CostumeGallery";
+
 import hero from "../../assets/servant/hero.jpg";
 import img1 from "../../assets/servant/img1.jpg";
 import img2 from "../../assets/servant/img2.jpg";
@@ -7,7 +9,6 @@ import img5 from "../../assets/servant/img5.jpg";
 import img6 from "../../assets/servant/img6.jpg";
 import img7 from "../../assets/servant/img7.jpg";
 import img8 from "../../assets/servant/img8.jpg";
-import CostumeGallery from "../../Components/Costume Wardrobe/CostumeGallery";
 
 const imgs = [img1, img2, img3, img4, img5, img6, img7, img8];
 

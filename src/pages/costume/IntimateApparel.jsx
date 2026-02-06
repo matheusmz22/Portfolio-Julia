@@ -1,3 +1,5 @@
+// Intimate Apparel
+// Sketches
 function IntimateApparel() {
   return (
     <section id="intimate-apparel">

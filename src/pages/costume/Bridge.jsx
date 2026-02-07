@@ -1,6 +1,6 @@
 import CostumeGallery from "../../Components/Costume Wardrobe/CostumeGallery";
 
-import hero from "../../assets/servant/hero.jpg";
+import hero from "../../assets/bridge/hero.jpg";
 import img1 from "../../assets/bridge/img1.jpg";
 import img2 from "../../assets/bridge/img2.jpg";
 import img3 from "../../assets/bridge/img3.jpg";

@@ -55,9 +55,14 @@ function Hero({isMobile, isMediumMobile}) {
               </div>
 
               {/* CTA BUTTON - RESUME */}
-              <button className="bg-brown text-whiteText rounded-full md:text-lg lg:text-xl xl:text-2xl md:px-8 md:py-2 xl:px-12 drop-shadow-lg drop-shadow-black font-name cursor-pointer hover:bg-brown-hover hover:text-whiteText-hover transition-colors">
+              <a
+                href="./JuliaMachado.pdf"
+                target="_blank"
+                aria-label="View Julia's Resume"
+                className="bg-brown text-whiteText rounded-full md:text-lg lg:text-xl xl:text-2xl md:px-8 md:py-2 xl:px-12 drop-shadow-lg drop-shadow-black font-name cursor-pointer hover:bg-brown-hover hover:text-whiteText-hover transition-colors"
+              >
                 View Resume
-              </button>
+              </a>
             </div>
 
             {/* HERO FOOTER CLASS  */}

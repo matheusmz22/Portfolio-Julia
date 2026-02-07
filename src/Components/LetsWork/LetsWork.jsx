@@ -19,6 +19,8 @@ function LetsWork() {
           <a
             className="text-center cursor-pointer transition-colors hover:bg-brown-resume-hover sm:w-28 md:w-32 md:p-1.5 w-22 p-1 text-md bg-brown-resume rounded-lg"
             aria-label="Julia's Resume"
+            href="./JuliaMachado.pdf"
+            target="_blank"
           >
             <span>Resume</span>
           </a>

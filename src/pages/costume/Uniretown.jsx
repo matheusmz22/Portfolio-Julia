@@ -1,22 +1,53 @@
-import {useNavigate} from "react-router-dom";
+import img1 from "../../assets/urinetown/img1.jpg";
+import img2 from "../../assets/urinetown/img2.jpg";
+import img3 from "../../assets/urinetown/img3.jpg";
+import img4 from "../../assets/urinetown/img4.jpg";
+import img5 from "../../assets/urinetown/img5.jpg";
+import img6 from "../../assets/urinetown/img6.jpg";
+import img7 from "../../assets/urinetown/img7.jpg";
+import img8 from "../../assets/urinetown/img8.jpg";
+import img9 from "../../assets/urinetown/img9.jpg";
+import img10 from "../../assets/urinetown/img10.jpg";
+import img11 from "../../assets/urinetown/img11.jpg";
+import img12 from "../../assets/urinetown/img12.jpg";
+import img13 from "../../assets/urinetown/img13.jpg";
+import img14 from "../../assets/urinetown/img14.jpg";
+import img15 from "../../assets/urinetown/img15.jpg";
+import img16 from "../../assets/urinetown/img16.jpg";
+import img17 from "../../assets/urinetown/img17.jpg";
+import heroImg from "../../assets/urinetown/heroImg.jpg";
+import CostumeGallery from "../../Components/Costume Wardrobe/CostumeGallery";
+
+const imgs = [
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  img9,
+  img10,
+  img11,
+  img12,
+  img13,
+  img14,
+  img15,
+  img16,
+  img17,
+];
 
 function Uniretown() {
-  const navigate = useNavigate();
-
   return (
     <section id="uniretown">
-      <button
-        className="text-2xl md:text-3xl m-3 text-brownText z-50 top-4 left-4 sticky back-arrow cursor-pointer"
-        onClick={() => navigate(-1)}
-      >
-        &larr;
-      </button>
-      <div className="flex flex-col  items-center justify-center h-60 border border-brownText/40">
-        <h3 className="uppercase tracking-[0.3em] text-xl text-brownText">
-          Coming Soon
-        </h3>
-        <p className="mt-2 text-sm opacity-80">New work in progress</p>
-      </div>
+      <CostumeGallery
+        title="Urinetown"
+        role="Costume Designer"
+        directed="Directed by Katie Banville & Melissa Glasgow"
+        heroImage={heroImg}
+        images={imgs}
+      />
     </section>
   );
 }

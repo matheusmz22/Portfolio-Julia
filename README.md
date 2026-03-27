@@ -1,6 +1,6 @@
 # Costume Design Portfolio
 
-Live Demo: juliamachado.vercel.app
+Live Demo: https://juliamachado.vercel.app
 
 This project is a personal portfolio showcasing custom costume design work, including original concepts and completed pieces.
 

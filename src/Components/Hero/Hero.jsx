@@ -25,7 +25,12 @@ function Hero({isMobile, isMediumMobile}) {
             </div>
 
             <div className="flex justify-center mb-20">
-              <a className="text-center bg-brown text-whiteText w-55 h-12 rounded-3xl text-[1.65rem] drop-shadow-black drop-shadow-lg">
+              <a
+                href="./JuliaMachado.pdf"
+                target="_blank"
+                aria-label="View Julia's Resume"
+                className="text-center bg-brown text-whiteText w-55 h-12 rounded-3xl text-[1.65rem] drop-shadow-black drop-shadow-lg"
+              >
                 View Resume
               </a>
             </div>

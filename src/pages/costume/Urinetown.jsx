@@ -1,22 +1,52 @@
-import {useNavigate} from "react-router-dom";
+import hero from "../../assets/urinetown/hero.JPG";
+import img1 from "../../assets/urinetown/img1.JPG";
+import img2 from "../../assets/urinetown/img2.JPG";
+import img3 from "../../assets/urinetown/img3.JPG";
+import img4 from "../../assets/urinetown/img4.JPG";
+import img5 from "../../assets/urinetown/img5.JPG";
+import img6 from "../../assets/urinetown/img6.JPG";
+import img7 from "../../assets/urinetown/img7.JPG";
+import img8 from "../../assets/urinetown/img8.JPG";
+import img9 from "../../assets/urinetown/img9.JPG";
+import img10 from "../../assets/urinetown/img10.JPG";
+import img11 from "../../assets/urinetown/img11.JPG";
+import img12 from "../../assets/urinetown/img12.JPG";
+import img13 from "../../assets/urinetown/img13.JPG";
+import img14 from "../../assets/urinetown/img14.JPG";
+import img15 from "../../assets/urinetown/img15.JPG";
+import img16 from "../../assets/urinetown/img16.JPG";
+
+import CostumeGallery from "../../Components/Costume Wardrobe/CostumeGallery";
+
+const imgs = [
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  img9,
+  img10,
+  img11,
+  img12,
+  img13,
+  img14,
+  img15,
+  img16,
+];
 
 function Uniretown() {
-  const navigate = useNavigate();
-
   return (
     <section id="uniretown">
-      <button
-        className="text-2xl md:text-3xl m-3 text-brownText z-50 top-4 left-4 sticky back-arrow cursor-pointer"
-        onClick={() => navigate(-1)}
-      >
-        &larr;
-      </button>
-      <div className="flex flex-col  items-center justify-center h-60 border border-brownText/40">
-        <h3 className="uppercase tracking-[0.3em] text-2xl text-brownText">
-          Coming Soon
-        </h3>
-        <p className="mt-2 text-lg opacity-80">New work in progress</p>
-      </div>
+      <CostumeGallery
+        title="Urinetown"
+        role="Costume Designer"
+        directed="Directed by Katie Banville & Melissa Glasgow"
+        heroImage={hero}
+        images={imgs}
+      />
     </section>
   );
 }

@@ -61,16 +61,16 @@ function CostumeGallery({title, role, directed, heroImage, images}) {
               className="mx-auto max-w-3xl w-full px-4 aspect-3/2 object-cover mb-20"
             />
           )}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 px-5 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 px-5 max-w-6xl mx-auto">
             {images.map((img, i) => {
-              const isLastOdd = images.length % 3 === 1 && images.length - 1;
+              const isLastOdd = images.length % 2 != 0 && images.length - 1;
 
               return (
                 <img
                   onClick={() => setActiveImage(img)}
                   key={i}
                   src={img}
-                  className={` w-full object-cover cursor-pointer hover:scale-[1.1] transition-all ${isLastOdd ? "lg:col-span-2 lg:mx-auto" : ""}`}
+                  className={`h-full w-full object-cover cursor-pointer hover:scale-[1.1] transition-all ${isLastOdd && isMobile ? "lg:col-span-2 lg:mx-auto" : ""}`}
                 />
               );
             })}
